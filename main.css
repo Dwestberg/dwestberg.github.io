@@ -1,0 +1,487 @@
+@font-face {
+  font-family: apexBold;
+  src: url(Apex_New_Bold.otf);
+}
+
+@font-face {
+  font-family: Caslon;
+  src: url(BigCaslonRegular.otf);
+}
+
+
+header {
+    overflow: hidden;
+  background-color:cadetblue;
+  padding: 20px 10px;
+}
+
+body, html {
+    margin: auto;
+}
+
+header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Eczar', serif;
+}
+
+.active {
+  background-color:coral;
+}
+
+
+header img {
+    width: 7%;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 10px;
+}
+
+
+header a.logo {
+    font-size: 25px;
+    font-family: apexBold;
+  }
+
+header a:hover {
+    color:darkslategray;
+}
+
+.header-right {
+    float: right;
+}
+
+.headerimg {
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+.headerimg img {
+    width:100%;
+    height:600px;
+   
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerimg a {
+    color:cadetblue;
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 25px;
+    border-radius: 4px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  font-family: 'Eczar', serif;
+}
+
+.headerimg a:hover {
+    color:white;
+    background-color: darkslategray;
+}
+
+h3 {
+  text-align: center;
+  font-size: 48px;
+  color: coral;
+  font-family: Caslon;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+#browse h2, #mybooks h2 {
+	padding-left: 2.5%;
+	padding-top:2.5%;
+	padding-bottom:2.5%;
+	color: white;
+	font-weight: 700;
+	font-style: normal;
+	font-size:2.7vw;
+	background-color:coral;
+	width:50%;
+	position:absolute;
+  top:60%;
+  left:30%;
+  z-index:500;
+  font-family: Caslon;
+  letter-spacing: 0.1vw;
+}
+
+#browse b, #mybooks b, #person b {
+
+	color: cadetblue;
+	font-style: normal;
+  font-size:18px;
+  font-family: 'Eczar', serif;
+
+}
+
+#browse img, #mybooks img {
+	width:80%;
+}
+
+#browse,#mybooks   {
+	position: relative;
+  text-align:left;
+  padding:20px;
+}
+
+#grid {
+  text-align:center;
+  margin:100px;
+  margin-left:180px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+
+#gridperson {
+  text-align:center;
+  margin:100px;
+  margin-left:110px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#person img {
+  width:80%;
+  border-radius: 50%;
+}
+
+#person  {
+	position: relative;
+  text-align:center;
+  padding:10px;
+}
+
+#person h2 {
+  padding: 2.7%;
+	color: white;
+	font-weight: 700;
+	font-style: normal;
+	font-size:1.6vw;
+	background-color:coral;
+	width:46%;
+	position:absolute;
+  top:60%;
+  left:24.2%;
+  z-index:500;
+  font-family: Caslon;
+  letter-spacing: 0.1vw;
+}
+
+.abouttext {
+  width:100%;
+  text-align: left;
+}
+
+.abouttext img {
+  width:50%;
+  padding:4.5vw;
+  margin-left: 4.5vw;
+}
+
+.abouttext p {
+  width:30%;
+  float: left;
+  margin-left: 4.5vw;
+  margin-top: 5.3vw;
+  font-size: 1.6vw;
+}
+
+.abouttext b {
+  font-family: Caslon;
+  line-height: 4vw;
+  margin-top: 4.5vw;
+  width: 30%;
+  margin-right: 0;
+  font-size: 2.4vw;
+  color: coral;
+}
+
+.form {
+  background-color:coral;
+  padding-bottom: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form h1 {
+font-family: Caslon;
+color: white;
+padding: 20px;
+letter-spacing: 1px;
+margin-left: 10px;
+}
+
+.form input[type=text], select {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 30px;
+}
+
+.form input[type=submit] {
+  width: 17%;
+  background-color: cadetblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+label {
+  font-family: 'Eczar', serif;
+  margin-left: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.authlabel {
+  margin-left: 355px;
+}
+
+#books, #books2 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#books2 {
+  margin-bottom: 110px;
+}
+
+#books td, #books th, #books2 td, #books2 th {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+}
+
+#books th, #books2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: coral;
+  color: white;
+  text-align: center;
+}
+
+#books button, #books2 button {
+  width: 60%;
+  background-color: cadetblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#books button:hover, #books2 button:hover {
+  background-color: darkslategray;
+}
+
+#books tr:nth-child(even){background-color: #f2f2f2;}
+#books2 tr:nth-child(even){background-color: #f2f2f2;}
+#books tr:hover {background-color: #ddd;}
+#books2 tr:hover {background-color: #ddd;}
+
+hr {
+  border: 2px solid coral;
+  width: 70%;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.contacttext {
+  margin-bottom: 10px;
+}
+
+.right {
+  width: 30%;
+  height: 400px;
+  padding:20px;
+  margin: 20px;
+  text-align: center
+}
+
+.left {
+ width: 30%;
+ height: 400px;
+ padding:20px;
+ margin:20px;
+ text-align: center;
+}
+
+.flexcontainer {
+  display:flex;
+  margin: auto;
+  width:100%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+i {
+  color: coral;
+}
+
+.contact {
+  font-size: 20px;
+  font-family: 'Eczar', serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+.contact i {
+  --animate-duration: 1s;
+}
+
+.textarea {
+  width:100%;
+  resize: none;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100px;
+}
+
+.flexcontainer input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 0px;
+}
+
+.flexcontainer input[type=submit] {
+  text-align: center;
+  width: 70%;
+  background-color: cadetblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.icons {
+  font-size: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+footer {
+  background-color: cadetblue;
+  overflow: hidden;
+  text-align: center;
+}
+
+.rightfooter {
+
+  width: 30%;
+  padding:0px;
+  margin-top:10px;
+  text-align: center
+}
+
+.leftfooter {
+
+ width: 30%;
+ padding:0px;
+ margin:0px;
+ text-align: center;
+}
+
+.middlefooter {
+
+  width: 30%;
+  padding:0px;
+  margin:0px;
+  text-align: center;
+ }
+
+.contactfooter {
+  font-size: 16px;
+  font-family: 'Eczar', serif;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.flexcontainerfooter {
+  display:flex;
+  margin: auto;
+  width:100%;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+footer img {
+  width: 40%;
+
+  margin-top: 35px;
+  margin-left: 0px;
+}
+
+
+.rightfooter hr {
+  border: 2px solid white;
+  width: 70%;
+  border-radius: 50%;
+  margin-bottom: 0px;
+}
+
+.iconsfooter i {
+  font-size: 24px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 0px;
+  color: white;
+}
+
+.flexcontainerfootericons {
+  display:flex;
+  margin: auto;
+  width:80%;
+  justify-content:space-around;
+}
+
